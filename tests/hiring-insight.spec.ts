@@ -1,8 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { openHomePage } from '../actions/home';
 import { clickLoginBtn, login } from '../actions/login';
-import { clickCloseThanksModal, clickRateFiveStars, noThanksBtn, rateUsBtn, rateUsModalHeading, resetFeedbackCampaigns, shareFeedBackBtn, thanksModalHeading } from '../actions/rate-us';
-import { addJobBtn, careerPlugLogo, hiringInsightLogin, jobsBtn } from '../actions/hiring-insight';
+import { addJobBtn, careerPlugLogo, jobsBtn } from '../actions/hiring-insight';
 
 test.describe('Hiring Insight', () => {
 
